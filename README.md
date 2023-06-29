@@ -16,6 +16,8 @@ module "ec2" {
   vpc_private3_cidr_block = "10.0.103.0/24"
   default_cidr_block = "0.0.0.0/0"
   key_name = "yo-key"
+  key_file = "~/.ssh/id_rsa.pub"
   instance_type = "t2.micro"
+
 }
 ```
